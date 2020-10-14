@@ -1,0 +1,36 @@
+<%
+let _trustvoxProductId
+if (_.state.metafields) {
+  const metafield = _.state.metafields.find(({ field }) => field === 'trustvox_id')
+  if (metafield && metafield.value) {
+    _trustvoxProductId = metafield.value
+  }
+}
+if (!_trustvoxProductId) {
+  _trustvoxProductId = _.state.sku
+}
+%>
+
+<script>
+  window._trustvoxProductId = '<%- _trustvoxProductId %>';
+</script>
+
+<div data-slot="rating" class="d-none">
+  <div id="trustvox-rating">
+    <a
+      class="trustvox-fluid-jump trustvox-widget-rating"
+      href="#trustvox-reviews"
+      title="Pergunte e veja opiniões de quem já comprou"
+    >
+      <div
+        class="trustvox-shelf-container d-inline-block"
+        data-trustvox-product-code-js="_trustvoxProductId"
+        data-trustvox-should-skip-filter="true"
+        data-trustvox-display-rate-schema="true"
+      ></div>
+      <span style="top: -3px; display: inline-block; position: relative; color: #DAA81D;">
+        Ver avaliações
+      </span>
+    </a>
+  </div>
+</div>

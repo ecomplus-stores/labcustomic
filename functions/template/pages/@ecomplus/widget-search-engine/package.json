@@ -1,0 +1,48 @@
+{
+  "name": "@ecomplus/widget-search-engine",
+  "version": "1.0.0-beta.58",
+  "description": "Storefront plugin & Vue component for dynamic search page",
+  "module": "src/index.js",
+  "browser": "dist/widget-search-engine.min.js",
+  "main": "dist/widget-search-engine.min.js",
+  "jsdelivr": "dist/public/widget-search-engine.var.min.js",
+  "unpkg": "dist/public/widget-search-engine.var.min.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "serve": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomplus/storefront.git",
+    "directory": "@ecomplus/widget-search-engine"
+  },
+  "keywords": [
+    "ecomplus",
+    "storefront",
+    "widget",
+    "search-engine"
+  ],
+  "author": "E-Com Club <ti@e-com.club>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecomplus/storefront/issues"
+  },
+  "homepage": "https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-search-engine#readme",
+  "peerDependencies": {
+    "@ecomplus/utils": "^1.4.1",
+    "core-js": "3.x",
+    "vue": ">=2 <4"
+  },
+  "dependencies": {
+    "@ecomplus/storefront-components": "^1.0.0-beta.59",
+    "@ecomplus/storefront-twbs": "^5.9.4"
+  },
+  "webpackOutput": {
+    "library": "widgetSearchEngine",
+    "filename": "widget-search-engine.min.js"
+  }
+
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.58.tgz"
+,"_integrity": "sha512-N23uHoJmCAELFNB0906sQfd/J22rkyC6W7yi7WLvnEI1zsi0K5ZxbC5crDBflwHVBUWrYI5H6h2lDcYnMAMUgQ=="
+,"_from": "@ecomplus/widget-search-engine@1.0.0-beta.58"
+}

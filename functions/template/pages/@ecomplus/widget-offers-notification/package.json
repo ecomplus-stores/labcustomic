@@ -1,0 +1,40 @@
+{
+  "name": "@ecomplus/widget-offers-notification",
+  "version": "1.0.1",
+  "description": "Storefront plugin for product stock and offers notification",
+  "main": "dist/widget-offers-notification.min.js",
+  "module": "src/index.js",
+  "browser": "dist/widget-offers-notification.min.js",
+  "jsdelivr": "dist/public/widget-offers-notification.var.min.js",
+  "unpkg": "dist/public/widget-offers-notification.var.min.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "serve": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecomplus/storefront.git",
+    "directory": "@ecomplus/widget-offers-notification"
+  },
+  "keywords": [
+    "ecomplus",
+    "storefront",
+    "widget",
+    "ebit",
+    "evaluate"
+  ],
+  "author": "E-Com Club <ti@e-com.club>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecomplus/storefront/issues"
+  },
+  "homepage": "https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-offers-notification#readme",
+  "webpackOutput": {
+    "library": "widgetOffersNotification",
+    "filename": "widget-offers-notification.min.js"
+  }
+
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-offers-notification/-/widget-offers-notification-1.0.1.tgz"
+,"_integrity": "sha512-B9vlXEVV5ty73eYXOL5M6XMAYmRor3odeLu6Y/gFzXNu7pR9R2aKeHWJBCstCR/l5wsDzusz3PXCaFckUWaw0g=="
+,"_from": "@ecomplus/widget-offers-notification@1.0.1"
+}
