@@ -1,0 +1,123 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'content/**'
+      - 'template/**'
+      - 'package-lock.json'
+      - '.ecomplus.cd.json'
+      - '.netlify/**'
+      - '.github/build-and-deploy'
+      - '.github/workflows/build-and-deploy.yml'
+
+jobs:
+  build-and-deploy:
+    name: Build Storefront and deploy
+    runs-on: ubuntu-latest
+    if: |
+      github.event.head_commit.message != 'Initial commit' &&
+      !contains(github.event.head_commit.message, '[skip ci]')
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm ci --only=production
+
+      - name: Check last changed files
+        uses: lots0logs/gh-action-get-changed-files@2.1.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+        id: changed_files
+
+      - name: Run partial build
+        env:
+          CHANGED_FILES: ${{ steps.changed_files.outputs.all }}
+        run: |
+          IS_ECOMPLUS_CD=$(node -p \
+            "const f = JSON.parse('${CHANGED_FILES}'); f.length === 1 && f[0] === '.ecomplus.cd.json'");
+          if [ $IS_ECOMPLUS_CD != false ] && [ -f .bundles.json ]; then
+            BUILD_SLUG=$(node -p "require('./.ecomplus.cd.json').slug || false");
+            if [ $BUILD_SLUG != false ]; then
+              npm run build -- --prerender=index,$BUILD_SLUG --no-bundler;
+              echo "::set-output name=isg::2";
+            else
+              npm run build -- --prerender=index,app/index --prerender-limit=200 --no-bundler;
+              echo "::set-output name=isg::1";
+            fi
+          else
+            npm run build -- --prerender=index,app/index,search,404 --prerender-limit=100;
+            echo "::set-output name=isg::0";
+          fi
+        id: partial_build
+
+      - name: Setup output directory to deploy
+        run: |
+          mkdir -p .deploy
+          mv dist .deploy/publish
+          cp -r .netlify/* .deploy/
+          cp -r template .deploy/functions/
+          cp -r content .deploy/functions/
+          cp .bundles.json .deploy/functions/
+          mkdir -p .deploy/functions/template/pages/@ecomplus
+          cp -r node_modules/@ecomplus/widget-* .deploy/functions/template/pages/@ecomplus/ 2>/dev/null || :
+
+      - name: Clear output directory
+        continue-on-error: true
+        run: rm -rf .deploy/functions/template/pages/**/node_modules
+
+      - name: Output ISG state
+        if: steps.partial_build.outputs.isg != 0
+        env:
+          ISG_ENUM: ${{ steps.partial_build.outputs.isg }}
+        run: echo $RANDOM > .deploy/.isg
+
+      - name: Push to branch dist to trigger deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: dist
+          FOLDER: .deploy
+          CLEAN: true
+
+      - name: Config Git and check diff
+        continue-on-error: true
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add .bundles.json content template
+          (git diff-index --quiet HEAD && echo "::set-output name=diff::0") || echo "::set-output name=diff::1"
+        id: git_diff
+
+      - name: Commit local file changes
+        if: steps.git_diff.outputs.diff == 1
+        continue-on-error: true
+        run: |
+          git commit -m 'chore: update template defaults and bundles data [skip ci]'
+
+      - name: Push changes
+        if: steps.git_diff.outputs.diff == 1
+        continue-on-error: true
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
