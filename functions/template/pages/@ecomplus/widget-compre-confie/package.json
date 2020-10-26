@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-compre-confie",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Storefront plugin for Compre & Confie",
   "main": "dist/widget-compre-confie.min.js",
   "module": "src/index.js",
@@ -39,7 +39,7 @@
     "filename": "widget-compre-confie.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.1.tgz"
-,"_integrity": "sha512-RbnvLf1OUkK7XhXovuNs46qnG4K0VRVnd1sJW8U+Cz/Mh/Y04Lq17tk9oO+T+WDHADuM4sImSBywJwxUpOcbnA=="
-,"_from": "@ecomplus/widget-compre-confie@1.1.1"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-compre-confie/-/widget-compre-confie-1.1.2.tgz"
+,"_integrity": "sha512-tFY2hEj52/4SEBW1003/nGraDdTDpiNVRL7H0N7D03YSRk3kuxpJKMPBGa9FWBuM78Ghbuax9xUNGxqdySXaLg=="
+,"_from": "@ecomplus/widget-compre-confie@1.1.2"
 }

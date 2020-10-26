@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-trustvox",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Storefront plugin for Trustvox product reviews",
   "main": "dist/widget-trustvox.min.js",
   "module": "src/index.js",
@@ -34,7 +34,7 @@
     "filename": "widget-trustvox.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.0.tgz"
-,"_integrity": "sha512-uKXFM4h0ChvOuz5kbqyNrAl61jlAqp0RfbamkwIIJZKFD/x00y0f3nm+vORCvAaSy7A0NWIzBdDJQfYWtzEsqA=="
-,"_from": "@ecomplus/widget-trustvox@2.2.0"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-trustvox/-/widget-trustvox-2.2.1.tgz"
+,"_integrity": "sha512-BNGgz/673f+9zbqBNm50DuTVtTz6NuCSV/h/UPqKGkAljbnZ+kklBffracmTdmzUSAzDF8JmJD22mcUGUncFig=="
+,"_from": "@ecomplus/widget-trustvox@2.2.1"
 }

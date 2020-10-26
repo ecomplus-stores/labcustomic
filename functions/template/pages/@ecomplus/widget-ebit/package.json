@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-ebit",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Storefront plugin for Ebit",
   "main": "dist/widget-ebit.min.js",
   "module": "src/index.js",
@@ -39,7 +39,7 @@
     "filename": "widget-ebit.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.7.tgz"
-,"_integrity": "sha512-lWJSSJczxInwQeWEMALf6mCCOrdKXe8LitDiAjL/bqvTf2moA9SwtZzmRBk5ziKFLuxOE9bQ7F4AzQbsFcDQ0Q=="
-,"_from": "@ecomplus/widget-ebit@1.1.7"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-ebit/-/widget-ebit-1.1.8.tgz"
+,"_integrity": "sha512-1olEwCZ7ubpgNEaPS101TP1O30eIsc70/WIbABwai2twuIFNMn2kMrWEFnTSsP91NWOckkWugkMrg7sweqfW6g=="
+,"_from": "@ecomplus/widget-ebit@1.1.8"
 }

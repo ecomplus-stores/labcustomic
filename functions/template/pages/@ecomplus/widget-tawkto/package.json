@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-tawkto",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Storefront plugin for Tawk.to chat",
   "main": "dist/widget-tawkto.min.js",
   "module": "src/index.js",
@@ -34,7 +34,7 @@
     "filename": "widget-tawkto.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.4.tgz"
-,"_integrity": "sha512-yRl1mzjJATggpsckSx0ILVlF0MhG54BzGDnIPkWcAM7hUo0GrZWxTejN6ysIn4s08EdyHm93k2620FvQfeBCgg=="
-,"_from": "@ecomplus/widget-tawkto@1.1.4"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-tawkto/-/widget-tawkto-1.1.5.tgz"
+,"_integrity": "sha512-gnYCi6czJJyy/kmq+C3XRsZNmZGQ/SNNnI/XcGtfidyOBgb9kI4FD9otUs13zkZIn180kYp+cVAglI2jw46mgA=="
+,"_from": "@ecomplus/widget-tawkto@1.1.5"
 }

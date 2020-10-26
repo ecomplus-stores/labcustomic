@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-opinioes-verificadas",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Storefront plugin for Opiniões Verificadas",
   "main": "dist/widget-opinioes-verificadas.min.js",
   "module": "src/index.js",
@@ -34,7 +34,7 @@
     "filename": "widget-opinioes-verificadas.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.1.tgz"
-,"_integrity": "sha512-fE6CefrP2ICi9ZYp/IHdY/fOSso1yR2eZ7BQ6Lh45dN7RsZOADQvnLCi+gjysxltY3D/mfJnZST3wcc6FQagmA=="
-,"_from": "@ecomplus/widget-opinioes-verificadas@1.1.1"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-opinioes-verificadas/-/widget-opinioes-verificadas-1.1.2.tgz"
+,"_integrity": "sha512-Bmgg5yhlj27JAJR8Gt5FHqxktb9ZCIakmPWqo1hAgtZ0ZyI5KwuKJzF3f+tkdAG5NqePySjCzzD+M/gC3ip0yA=="
+,"_from": "@ecomplus/widget-opinioes-verificadas@1.1.2"
 }

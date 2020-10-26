@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-offers-notification",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Storefront plugin for product stock and offers notification",
   "main": "dist/widget-offers-notification.min.js",
   "module": "src/index.js",
@@ -34,7 +34,7 @@
     "filename": "widget-offers-notification.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-offers-notification/-/widget-offers-notification-1.0.1.tgz"
-,"_integrity": "sha512-B9vlXEVV5ty73eYXOL5M6XMAYmRor3odeLu6Y/gFzXNu7pR9R2aKeHWJBCstCR/l5wsDzusz3PXCaFckUWaw0g=="
-,"_from": "@ecomplus/widget-offers-notification@1.0.1"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-offers-notification/-/widget-offers-notification-1.0.2.tgz"
+,"_integrity": "sha512-lwQM9TODekjIw9GYEhCv6MAuDZm62bVf6Ht+RHnUO0p27J+s37/Wu3zdYnW0x12RmzIZP0Hcx2kISKtQanqLVg=="
+,"_from": "@ecomplus/widget-offers-notification@1.0.2"
 }

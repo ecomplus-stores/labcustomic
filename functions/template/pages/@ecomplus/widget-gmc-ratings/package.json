@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-gmc-ratings",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Storefront plugin for GMC customer ratings",
   "main": "dist/widget-gmc-ratings.min.js",
   "module": "src/index.js",
@@ -41,7 +41,7 @@
     "filename": "widget-gmc-ratings.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.5.tgz"
-,"_integrity": "sha512-eGYsTJUvUznUPBNYrB4gSjIqsZHXdmYJk1eIxZzq9Z48lC8vVExRpTYfiULyNSxx3Ih7BMaB+dfVq5/9sp7bfA=="
-,"_from": "@ecomplus/widget-gmc-ratings@1.2.5"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.6.tgz"
+,"_integrity": "sha512-foFXRdXomMeIQc///BXgeXkIyr6APVDbVyujH5/eQKneFbKHhJ78Su0mFRFtTQayNyzIFepiHfvI3DocI/kFdw=="
+,"_from": "@ecomplus/widget-gmc-ratings@1.2.6"
 }
