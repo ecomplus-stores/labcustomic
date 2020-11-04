@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-search",
-  "version": "1.0.0-beta.57",
+  "version": "1.0.0-beta.58",
   "description": "Storefront plugin with Vue component for instant search engine on E-Com Plus stores",
   "module": "src/index.js",
   "browser": "dist/widget-search.min.js",
@@ -36,14 +36,14 @@
     "vue": ">=2 <4"
   },
   "dependencies": {
-    "@ecomplus/storefront-components": "^1.0.0-beta.60"
+    "@ecomplus/storefront-components": "^1.0.0-beta.61"
   },
   "webpackOutput": {
     "library": "widgetSearch",
     "filename": "widget-search.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.57.tgz"
-,"_integrity": "sha512-Yn2HfeLLD9MwLzwcvR3gzElv7YaG2/8nNHXVdUlXHvAp/6FMk+opMUJ1NJ7bXiG16Y+kesFTEfhu5tLriy3u/Q=="
-,"_from": "@ecomplus/widget-search@1.0.0-beta.57"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-search/-/widget-search-1.0.0-beta.58.tgz"
+,"_integrity": "sha512-FjLbOCeqT3p8hjZ4Ex7uGd2gjpRpEUBhe91ITWbV2OS2p9pYO5qWOp9iMVkTDZZYhER/3J6pHNqpFQqUeiZwYw=="
+,"_from": "@ecomplus/widget-search@1.0.0-beta.58"
 }

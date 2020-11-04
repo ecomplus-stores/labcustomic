@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-search-engine",
-  "version": "1.0.0-beta.59",
+  "version": "1.0.0-beta.60",
   "description": "Storefront plugin & Vue component for dynamic search page",
   "module": "src/index.js",
   "browser": "dist/widget-search-engine.min.js",
@@ -34,7 +34,7 @@
     "vue": ">=2 <4"
   },
   "dependencies": {
-    "@ecomplus/storefront-components": "^1.0.0-beta.60",
+    "@ecomplus/storefront-components": "^1.0.0-beta.61",
     "@ecomplus/storefront-twbs": "^5.9.4"
   },
   "webpackOutput": {
@@ -42,7 +42,7 @@
     "filename": "widget-search-engine.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.59.tgz"
-,"_integrity": "sha512-/qzf8ua+YiWkfkokv4QAnII2KxxeBGfxb7ZsqS1dLpBopAUL5cyz3paeHPexeBIBDLJsDnlAY4dDI0y4zpSW0A=="
-,"_from": "@ecomplus/widget-search-engine@1.0.0-beta.59"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-search-engine/-/widget-search-engine-1.0.0-beta.60.tgz"
+,"_integrity": "sha512-cUNFuXdGCtrfAqbxBsqSxudjVF2V+GAWsxFJx188dMCfcUCcrvjSAicXKojgGlFkkmnXWqyudlMknzESffyTTA=="
+,"_from": "@ecomplus/widget-search-engine@1.0.0-beta.60"
 }

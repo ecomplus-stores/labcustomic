@@ -20,13 +20,13 @@
     </url>
   
     <url>
-      <loc>https://labcustomic.netlify.app/pages/entrega</loc>
+      <loc>https://labcustomic.netlify.app/pages/faq</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://labcustomic.netlify.app/pages/faq</loc>
+      <loc>https://labcustomic.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>

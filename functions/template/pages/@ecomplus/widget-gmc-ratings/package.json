@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-gmc-ratings",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Storefront plugin for GMC customer ratings",
   "main": "dist/widget-gmc-ratings.min.js",
   "module": "src/index.js",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/ecomplus/storefront/tree/master/@ecomplus/widget-gmc-ratings#readme",
   "peerDependencies": {
-    "@ecomplus/client": "^2.1.1",
+    "@ecomplus/client": "^2.1.3",
     "@ecomplus/passport-client": "^1.0.10",
     "@ecomplus/utils": "^1.4.1",
     "core-js": "3.x"
@@ -41,7 +41,7 @@
     "filename": "widget-gmc-ratings.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.6.tgz"
-,"_integrity": "sha512-foFXRdXomMeIQc///BXgeXkIyr6APVDbVyujH5/eQKneFbKHhJ78Su0mFRFtTQayNyzIFepiHfvI3DocI/kFdw=="
-,"_from": "@ecomplus/widget-gmc-ratings@1.2.6"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-gmc-ratings/-/widget-gmc-ratings-1.2.7.tgz"
+,"_integrity": "sha512-ut6lcYKbVgAT0ezApYYJz4aFlHU0kx0sMgF/4PdGDJLce/pRxeHbw3CcpJx7MmkjVzwdj2QI2tbb/Hdq8ILM5Q=="
+,"_from": "@ecomplus/widget-gmc-ratings@1.2.7"
 }

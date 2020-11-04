@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-product",
-  "version": "1.0.0-beta.57",
+  "version": "1.0.0-beta.58",
   "description": "Storefront plugin & Vue component for full product block",
   "module": "src/index.js",
   "browser": "dist/widget-product.min.js",
@@ -34,14 +34,14 @@
     "vue": ">=2 <4"
   },
   "dependencies": {
-    "@ecomplus/storefront-components": "^1.0.0-beta.60"
+    "@ecomplus/storefront-components": "^1.0.0-beta.61"
   },
   "webpackOutput": {
     "library": "widgetProduct",
     "filename": "widget-product.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.57.tgz"
-,"_integrity": "sha512-MS/b++pm1/11CiDeTVXRy92gfFJYC7oG3Evp23ocspgquHbvgpUfrf+HjEboLjZD9MQcaGJmpfZAsXWmVfOuJQ=="
-,"_from": "@ecomplus/widget-product@1.0.0-beta.57"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-product/-/widget-product-1.0.0-beta.58.tgz"
+,"_integrity": "sha512-vrT6W+ijn6YkOJWufQ8mk4kzxjTpXbXwHylhVH4vj7MubTIA1ChnqOa3M4lI9e1V3uWpKW5MWUlbqJcrSgYH3g=="
+,"_from": "@ecomplus/widget-product@1.0.0-beta.58"
 }
