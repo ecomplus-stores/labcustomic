@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-user",
-  "version": "1.0.0-beta.60",
+  "version": "1.0.0-beta.61",
   "description": "Storefront plugin with Vue component customer identification for E-Com Plus stores",
   "module": "src/index.js",
   "browser": "dist/widget-user.min.js",
@@ -35,14 +35,14 @@
     "vue": ">=2 <4"
   },
   "dependencies": {
-    "@ecomplus/storefront-components": "^1.0.0-beta.63"
+    "@ecomplus/storefront-components": "^1.0.0-beta.64"
   },
   "webpackOutput": {
     "library": "widgetUser",
     "filename": "widget-user.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-user/-/widget-user-1.0.0-beta.60.tgz"
-,"_integrity": "sha512-w2FghOCBcKGi240bVW5YoiGxBAfZpzZE1EzbKHO2b/Zz4/wNXpZ78ELqBHWwCSD3OMz0pk8N+RP6/TuySyNVtA=="
-,"_from": "@ecomplus/widget-user@1.0.0-beta.60"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-user/-/widget-user-1.0.0-beta.61.tgz"
+,"_integrity": "sha512-KJOEOZPq2eSQ7rGoA7irQy3uSunWuZ7t7esLuye7hMXXiMseCHgyN0fkIANCfOp55k4fQubAficP45ujVrolaw=="
+,"_from": "@ecomplus/widget-user@1.0.0-beta.61"
 }
