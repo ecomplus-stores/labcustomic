@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-analytics",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Storefront plugin to handle GA Universal Analytics",
   "main": "dist/widget-analytics.min.js",
   "module": "src/index.js",
@@ -35,14 +35,14 @@
     "core-js": "3.x"
   },
   "dependencies": {
-    "@ecomplus/widget-tag-manager": "^1.3.1"
+    "@ecomplus/widget-tag-manager": "^1.4.0"
   },
   "webpackOutput": {
     "library": "widgetAnalytics",
     "filename": "widget-analytics.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.1.tgz"
-,"_integrity": "sha512-haZeMTvGQhlQ2LjodTgx+f34OvM3DIJvbuMisSjl6maDjS1OYiOLTZq5nNWFepLX9pe9AazFZl7afoB+hrv3HQ=="
-,"_from": "@ecomplus/widget-analytics@1.1.1"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-analytics/-/widget-analytics-1.1.2.tgz"
+,"_integrity": "sha512-L21BhiDMsW9I+0q+Fg/wu/2pkmsv2AtJhFWEnc3iV88h66ueTv1ZTXulR+PO8Zi23b52XWZWHlt84zeVC9LT7g=="
+,"_from": "@ecomplus/widget-analytics@1.1.2"
 }
