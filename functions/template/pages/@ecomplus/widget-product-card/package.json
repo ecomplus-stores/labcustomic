@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-product-card",
-  "version": "1.0.0-beta.63",
+  "version": "1.0.0-beta.64",
   "description": "Storefront plugin with Vue component for product cards",
   "module": "src/index.js",
   "browser": "dist/widget-product-card.min.js",
@@ -36,14 +36,14 @@
     "vue": ">=2 <4"
   },
   "dependencies": {
-    "@ecomplus/storefront-components": "^1.0.0-beta.66"
+    "@ecomplus/storefront-components": "^1.0.0-beta.67"
   },
   "webpackOutput": {
     "library": "widgetProductCard",
     "filename": "widget-product-card.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.63.tgz"
-,"_integrity": "sha512-bHXjeFa3oBL5mU+I/NmledM20T5h9FHIFSCn0+T8TyaoDYjrBCIQQdEUV3uNmXjwjCyNXqx+BsUxrIKTWsl9jw=="
-,"_from": "@ecomplus/widget-product-card@1.0.0-beta.63"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-product-card/-/widget-product-card-1.0.0-beta.64.tgz"
+,"_integrity": "sha512-RspRhbfAdvcwfaIzOUb5FYfHKjKagZB/VYiKv1EDka+DMqdRTmgpeqJ+64rPgAZYax0JW8C+RczggQzynCDUPQ=="
+,"_from": "@ecomplus/widget-product-card@1.0.0-beta.64"
 }

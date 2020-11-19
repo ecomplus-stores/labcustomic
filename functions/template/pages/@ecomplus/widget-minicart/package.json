@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/widget-minicart",
-  "version": "1.0.0-beta.63",
+  "version": "1.0.0-beta.64",
   "description": "Storefront plugin with Vue component for shopping cart quickview E-Com Plus stores",
   "module": "src/index.js",
   "browser": "dist/widget-minicart.min.js",
@@ -36,14 +36,14 @@
     "vue": ">=2 <4"
   },
   "dependencies": {
-    "@ecomplus/storefront-components": "^1.0.0-beta.66"
+    "@ecomplus/storefront-components": "^1.0.0-beta.67"
   },
   "webpackOutput": {
     "library": "widgetMinicart",
     "filename": "widget-minicart.min.js"
   }
 
-,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.63.tgz"
-,"_integrity": "sha512-U0RcnYbKVpaSMJ4zwrMw9Z8VcShkuMxNTMUX1zCuRSwsksqEDVqHasZxPW35Y44fM5pUEJ08ad0Pe2rX9r80kw=="
-,"_from": "@ecomplus/widget-minicart@1.0.0-beta.63"
+,"_resolved": "https://registry.npmjs.org/@ecomplus/widget-minicart/-/widget-minicart-1.0.0-beta.64.tgz"
+,"_integrity": "sha512-0RjiX7kO7i70zlPQ4xcxXZV/ZB9p3WWKDTq1YNUGlO+m1hMvCRPZDa6CCyJFA3TDt5YEfFaQJymZUM4FFZ317w=="
+,"_from": "@ecomplus/widget-minicart@1.0.0-beta.64"
 }
